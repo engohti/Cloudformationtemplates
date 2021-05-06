@@ -1,0 +1,7 @@
+--- 
+Resources: 
+  MyEC2Instance: 
+    Properties: 
+      ImageId: ami-79fd7eee
+      KeyName: testkey
+    Type: "AWS::EC2::Instance"
